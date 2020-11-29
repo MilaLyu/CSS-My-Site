@@ -14,16 +14,13 @@ h1 {
 
 p {
   position: relative; right: 10mm;
-  font-family: 'EB Garamond', serif;
+    font-family: 'Heebo', sans-serif;
 }
 
-.mila {
-  font-family: 'Heebo', sans-serif;
-}
 /*************CLASS SELECTORS*********/
 
 .TopContainer{
-  margin: 200px;                                            /*****<=my successful try to override***/
+  margin: 0px;                                            /*****<=my successful try to override***/
   margin-top: 0px;
   padding-top: 100px;
   margin-bottom: 20px;
@@ -32,6 +29,12 @@ p {
 }
 
 .kuche {
+  width: 200px;
+  height: 200px;
+  margin-top: 0
+  background-color: #f7f7ee;
+}
+.dummy {
   width: 200px;
   height: 200px;
   margin-top: 0
