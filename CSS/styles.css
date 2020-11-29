@@ -8,7 +8,8 @@ body {
 /***********TAG SELECTORS********/
 h1 {
   margin-top: 0;
-  position: relative; right: 10mm;                           /*****<=lecturer's way try to override***/
+  position: relative; right: 10mm;
+  font-family: 'Dancing Script', cursive;                          /*****<=lecturer's way try to override***/
 }
 
 p {
@@ -16,14 +17,25 @@ p {
   font-family: 'EB Garamond', serif;
 }
 
+.mila {
+  font-family: 'Heebo', sans-serif;
+}
 /*************CLASS SELECTORS*********/
 
 .TopContainer{
   margin: 200px;                                            /*****<=my successful try to override***/
   margin-top: 0px;
   padding-top: 100px;
+  margin-bottom: 20px;
   position: relative;
   background-color: #f7f7ee;                                /*****<=my successful try to override***/
+}
+
+.kuche {
+  width: 200px;
+  height: 200px;
+  margin-top: 0
+  background-color: #f7f7ee;
 }
 
 .MiddleContainer {
