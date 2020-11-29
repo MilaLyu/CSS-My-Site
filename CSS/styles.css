@@ -19,7 +19,7 @@ p {
 
 /*************CLASS SELECTORS*********/
 
-.TopContainer {
+.TopContainer{
   margin: 200px;                                            /*****<=my successful try to override***/
   margin-top: 0px;
   padding-top: 100px;
