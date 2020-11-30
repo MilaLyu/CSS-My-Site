@@ -19,13 +19,14 @@ p {
 
 /*************CLASS SELECTORS*********/
 
-.TopContainer{ 
+.TopContainer{
   margin: 0px;                                            /*****<=my successful try to override***/
   margin-top: 0px;
   padding-top: 100px;
   margin-bottom: 20px;
   position: relative;
-  background-color: #f7f7ee;                                /*****<=my successful try to override***/
+  background-color: #f7f7ee;
+                               
 }
 
 .kuche {
