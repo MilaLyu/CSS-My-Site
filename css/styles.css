@@ -81,7 +81,7 @@ a {
 }
 
 .Do {
-  font-family: sans-serif; font-style:normal; font-size: 11px;
+  font-family: sans-serif; font-style:normal; font-size: 12px;
 }
 
 .bottom-container {
@@ -108,6 +108,9 @@ a {
   position: relative; left: 150px;
 }
 
+.footer-link {
+margin-top: 50px;
+}
 /************PSEUDO SELECTORS***************/
 
 a:link {
