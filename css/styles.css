@@ -68,7 +68,7 @@ p {
   height: 35px;
   margin-top: 0
   background-color: #f7f7ee;
-  position: relative; left: 430px; top: 10px;
+  position: relative; left: 30px; top: 10px;
   -webkit-transform: rotate(340deg) translateY(-50%);
   transform: rotate(340deg) translateY(-50%);
   }
