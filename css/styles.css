@@ -7,12 +7,16 @@ body {
 /***********TAG SELECTORS********/
 h1 {
   margin-top: 0;
-  position: relative; right: 10mm;
+  position: relative;
   font-family: 'Dancing Script', cursive;
 }
 
+h3 {
+  font-family: 'Open Sans', sans-serif; font-size: 12px; font-style: italic;
+}
+
 p {
-  position: relative; right: 10mm;
+  position: relative;
   font-family: 'Heebo', sans-serif;
 }
 
@@ -34,18 +38,45 @@ p {
   background-color: #f7f7ee;
 }
 
-.circle {
+.racoon {
   width: 200px;
   height: 200px;
   margin-top: 0
   background-color: #f7f7ee;
 }
 
+.circle {
+  width: 200px;
+  height: 200px;
+  margin-top: 0
+  background-color: #f7f7ee;
+}
+/*************************MIDDLE CONTAINER*************/
 .middle-container {
 }
 
+.plane {
+  width: 50px;
+  height: 50px;
+  margin-top: 0
+  background-color: #f7f7ee;
+  position: relative; right: 430px; bottom: 10px;
+}
+
+.milly {
+  width: 30px;
+  height: 35px;
+  margin-top: 0
+  background-color: #f7f7ee;
+  position: relative; left: 430px; bottom: 5px;
+  -webkit-transform: rotate(340deg) translateY(-50%);
+  transform: rotate(340deg) translateY(-50%);
+  }
+
+
 .bottom-container {
 }
+
 
 .mountain { position: relative;
 }
