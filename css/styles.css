@@ -18,17 +18,13 @@ p {
 
 /*************CLASS SELECTORS*********/
 
-.TopContainer{
+.TopContainer {
   margin: 0px;
   margin-top: 0px;
   padding-top: 100px;
   margin-bottom: 20px;
   position: relative;
   background-color: #f7f7ee;
-<<<<<<< HEAD
-=======
-
->>>>>>> 4694470bc1a37cef28483099b0d0d35c58792b92
 }
 
 .kuche {
@@ -37,6 +33,7 @@ p {
   margin-top: 0
   background-color: #f7f7ee;
 }
+
 .circle {
   width: 200px;
   height: 200px;
@@ -45,11 +42,9 @@ p {
 }
 
 .MiddleContainer {
-
 }
 
 .BottomContainer {
-
 }
 
 .mountain { position: relative;
@@ -58,7 +53,7 @@ p {
 
 
 .bottom-cloud {
-  position: absolute; top: 500px;
+  position: absolute; top: 275px;
 }
 
 .top-cloud {
