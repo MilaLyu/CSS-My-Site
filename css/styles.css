@@ -108,8 +108,18 @@ a {
   position: relative; left: 150px;
 }
 
-.footer-link {
-margin-top: 50px;
+.cat {
+position: relative;
+margin-top: 70px;
+}
+
+.How {
+  font-family:'Emilys Candy', cursive;
+  font-size: 30px;
+}
+.This {
+  font-family:'Emilys Candy', cursive;
+  font-size: 35px;
 }
 /************PSEUDO SELECTORS***************/
 
