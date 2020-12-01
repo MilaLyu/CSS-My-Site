@@ -39,10 +39,11 @@ p {
 }
 
 .racoon {
+  position: relative; left: 50px;
   width: 200px;
   height: 200px;
   margin-top: 0
-  background-color: #f7f7ee;
+
 }
 
 .circle {
@@ -67,10 +68,12 @@ p {
   width: 30px;
   height: 35px;
   margin-top: 0
-  position: relative; left: 30px; top: 10px;
-  -webkit-transform: rotate(340deg) translateY(-50%);
-  transform: rotate(340deg) translateY(-50%);
+  position:relative; left: 7px; bottom: 700px;
+  -webkit-transform: rotate(0deg) translateY(-50%);
+  transform: rotate(0deg) translateY(-50%);
 }
+
+
 
 .bottom-container {
 }
