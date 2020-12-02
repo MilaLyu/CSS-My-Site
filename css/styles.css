@@ -124,25 +124,29 @@ margin-top: 30px;
 }
 
 .Catjoke {
-  background-color: #f4f9f4;
   position: absolute;
-  top: 100px;
-  width: 480px;
-  height: 400px;
+  top: 250px;
+  left: 720px;
+  width: 380px;
+  height: 300px;
   border-radius: 260%;
   object-fit: cover;
   border-top-right-radius: 20%;
   border-bottom-right-radius: 20%;
 }
 
-.Hope {
+  .Hope {
   font-size: 27px;
-  font-family:'Mali', cursive;
   position: absolute;
-  width: 420px;
-  height: 50px;
+  width: 520px;
+  height: 80px;
   top: 150px;
   right: 720px;
+}
+
+.footer-link {
+  font-family: serif;
+  background-color: #fffafa;
 }
 /************PSEUDO SELECTORS***************/
 
