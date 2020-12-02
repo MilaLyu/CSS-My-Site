@@ -163,18 +163,21 @@ color: #393e46;
 }
 
 /************************WEbsite*************/
-.Tri {
-background color: #f4f9f4;
+.tri {
+background-color:
 }
 
 
 .Bre {
   position: absolute;
-  padding: 90px;
+  padding: 110px;
+  padding-bottom: 100px;
+
   margin-left: 280px;
   font-size: 18px;
   font-family: 'Quattrocento', serif;
   color: #393e46;
+  background-color: #f4f9f4;
 }
 
 .nindja {
@@ -184,6 +187,9 @@ border-bottom-right-radius: 20%;
 object-fit: cover;
 }
 
+.sorry {
+  font-size: 26px;
+}
 /************PSEUDO SELECTORS***************/
 
 a:link {
