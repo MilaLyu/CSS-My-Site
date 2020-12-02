@@ -45,14 +45,13 @@ a {
   position: relative; left: 25px;
   width: 200px;
   height: 200px;
-  margin-top: 0
-
+  margin-top: 0;
 }
 
 .circle {
   width: 200px;
   height: 200px;
-  margin-top: 0
+  margin-top: 0;
 
 }
 
@@ -73,10 +72,10 @@ background-color:  #fffafa;
   height: 35px;
   top: 560px;
   right: 5px;
-
+}
   /**-webkit-transform: rotate(0deg) translateY(-50%);
   transform: rotate(0deg) translateY(-50%);**/
-}
+
 
 .If {
   font-size: 13px;
@@ -108,7 +107,7 @@ background-color:  #fffafa;
 .top-cloud {
   position: relative; left: 220px;
 }
-
+/******************************FACEBOOK******************/
 .cat {
 position: relative;
 margin-top: 30px;
@@ -118,11 +117,12 @@ margin-top: 30px;
   font-family:'Emilys Candy', cursive;
   font-size: 30px;
 }
+
 .This {
   font-family:'Emilys Candy', cursive;
   font-size: 40px;
 }
-
+/****************TWITTER*********/
 .Catjoke {
   position: absolute;
   top: 250px;
@@ -135,19 +135,49 @@ margin-top: 30px;
   border-bottom-right-radius: 20%;
 }
 
-  .Hope {
-  font-size: 27px;
-  position: absolute;
-  width: 520px;
-  height: 80px;
-  top: 150px;
-  right: 720px;
+.dve {
+  background-color: #ece8d9;
 }
 
-.footer-link {
-  font-family: serif;
-  background-color: #fffafa;
+  h1.Hope {
+  font-size: 22px;
+  position: absolute;
+  width: 520px;
+  height: 110px;
+  top: 170px;
+  left: 120px;
+  font-family: 'Quattrocento', serif;
+  font-weight: lighter;
+  color: #393e46;
 }
+
+.Ehe {
+font-size: 22px;
+position: absolute;
+width: 520px;
+height: 80px;
+top: 310px;
+right: 660px;
+font-family: 'Quattrocento', serif;
+color: #393e46;
+}
+
+/************************WEbsite*************/
+.Tri {
+
+}
+
+h1,p,h2 {
+  font-size: 22px;
+  font-family: 'Quattrocento', serif;
+  color: #393e46;
+}
+
+.nindja {
+border-radius: 260%;
+object-fit: cover;
+}
+
 /************PSEUDO SELECTORS***************/
 
 a:link {
