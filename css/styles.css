@@ -68,12 +68,14 @@ a {
 }
 
 .milly {
-  position: absolute; left: -127px; top: 650px;
+  position: fixed;
   width: 25px;
   height: 35px;
+  top: 570px;
+  right: 30px;
   border-color: grey;
-  -webkit-transform: rotate(0deg) translateY(-50%);
-  transform: rotate(0deg) translateY(-50%);
+  /**-webkit-transform: rotate(0deg) translateY(-50%);
+  transform: rotate(0deg) translateY(-50%);**/
 }
 
 .If {
