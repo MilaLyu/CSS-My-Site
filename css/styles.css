@@ -164,17 +164,23 @@ color: #393e46;
 
 /************************WEbsite*************/
 .Tri {
-
+background color: #f4f9f4;
 }
 
-h1,p,h2 {
-  font-size: 22px;
+
+.Bre {
+  position: absolute;
+  padding: 90px;
+  margin-left: 280px;
+  font-size: 18px;
   font-family: 'Quattrocento', serif;
   color: #393e46;
 }
 
 .nindja {
 border-radius: 260%;
+border-top-right-radius: 20%;
+border-bottom-right-radius: 20%;
 object-fit: cover;
 }
 
