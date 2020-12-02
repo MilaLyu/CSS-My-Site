@@ -101,11 +101,11 @@ a {
 
 
 .bottom-cloud {
-  position: absolute; top: 275px;
+  position: absolute; bottom: 330px; left: 270px;
 }
 
 .top-cloud {
-  position: relative; left: 150px;
+  position: relative; left: 220px;
 }
 
 .cat {
