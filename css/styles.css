@@ -108,6 +108,15 @@ background-color:  #fffafa;
   position: relative; left: 220px;
 }
 /******************************FACEBOOK******************/
+.Divane {
+  background-color: #f4f9f4;
+  position: relative;
+  width: 800px;
+  height: 600px;
+  left: 255px;
+  top: 30px;
+
+}
 .cat {
 position: relative;
 margin-top: 30px;
