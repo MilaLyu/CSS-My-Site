@@ -89,6 +89,10 @@ background-color:  #fffafa;
   background-color: #fffafa;
 }
 
+a.footer-link {
+font-size: 20px;
+}
+
 .Mii {
   font-size: 10px; margin: auto; margin-top: 35px; background-color: #e8e8e8;
 }
@@ -188,7 +192,7 @@ background-color:
   color: #393e46;
   background-color: #f4f9f4;
   display: block;
-  margin: auto 190px 0 275px
+  margin: auto 275px 0 275px
 }
 
 .nindja {
