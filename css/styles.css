@@ -182,11 +182,12 @@ background-color:
   position: absolute;
   padding: 110px;
   padding-bottom: 120px;
-  margin-left: 450px;
   font-size: 18px;
   font-family: 'Quattrocento', serif;
   color: #393e46;
   background-color: #f4f9f4;
+  display: block;
+  margin: auto 10px auto 275px
 }
 
 .nindja {
