@@ -113,8 +113,9 @@ background-color:  #fffafa;
   position: relative;
   width: 800px;
   height: 600px;
-  left: 255px;
+  display: inline-block;
   top: 30px;
+  bottom: 30px;
 
 }
 .cat {
