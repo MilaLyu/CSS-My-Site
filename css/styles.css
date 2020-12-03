@@ -112,7 +112,7 @@ background-color:  #fffafa;
   background-color: #f4f9f4;
   position: relative;
   width: 800px;
-  height: 600px;
+  height: 560px;
   display: inline-block;
   top: 30px;
   bottom: 30px;
@@ -120,17 +120,19 @@ background-color:  #fffafa;
 }
 .cat {
 position: relative;
-margin-top: 30px;
+margin-top: 5px;
 }
 
 .How {
   font-family:'Emilys Candy', cursive;
   font-size: 30px;
+  margin-top: 25px;
 }
 
 .This {
   font-family:'Emilys Candy', cursive;
   font-size: 40px;
+  margin-top: 10px;
 }
 /*******************************TWITTER**************************/
 .Catjoke {
