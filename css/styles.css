@@ -183,6 +183,12 @@ color: #393e46;
 background-color:
 }
 
+hr {
+  border-style: dotted;
+  border-color: #cbbcb1;
+  width: 70px;
+  border-width: 3px;
+}
 
 .Bre {
   position: absolute;
