@@ -185,9 +185,10 @@ background-color:
 
 #hi {
   border-style: dotted;
-  border-color: #cbbcb1;
-  width: 70px;
-  border-width: 3px;
+  border-color: #dfdfdf;
+  width: 100px;
+  border-width: 1px;
+  margin-top: 45px;
 }
 
 .Bre {
@@ -199,6 +200,11 @@ background-color:
   background-color: #f4f9f4;
   display: block;
   margin: auto 275px 0 275px
+}
+
+.brebre{
+  position: relative;
+  padding-top: 15px;
 }
 
 .nindja {
