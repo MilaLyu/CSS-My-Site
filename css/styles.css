@@ -34,7 +34,7 @@ a {
 .skill-row {
   width: 50%;
   margin: auto auto 120px auto;
-  line-height: px;
+  height: 80px;
 }
 
 .skills {
@@ -71,11 +71,11 @@ padding-right: 8rem;
 
 .comp {
 padding-top: 40px;
-padding-left: 14rem;
+padding-left: 16rem;
 }
 
 .compi {
-  padding-left: 6rem;
+  padding-left: 8rem;
 }
 
 .racoon {
