@@ -2,6 +2,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Dancing Script', cursive;
+  position: relative;
 }
 
 /***********TAG SELECTORS********/
@@ -12,19 +13,27 @@ h1 {
 }
 
 h3 {
-  font-family: 'Open Sans', sans-serif; font-size: 12px; font-style: italic;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-style: italic;
 }
 
 p {
-  position: relative;
   font-family: 'Heebo', sans-serif;
 }
 
 a {
-  position: relative; top: 25px; font-size: 17px;
+  position: relative;
+  top: 25px;
+  font-size: 17px;
 }
 
 /*************CLASS SELECTORS*********/
+
+.skill-row {
+  width: 50%;
+  margin: auto;
+}
 
 .top-container {
   margin: 0px;
@@ -41,30 +50,35 @@ a {
   margin-top: 0;
 }
 
+.plane {
+  width: 50px;
+  height: 50px;
+  margin-top: 0;
+  position: relative;
+  right: 430px;
+  bottom: 10px;
+}
+
+
 .racoon {
-  position: relative; left: 25px;
+  left: 25px;
   width: 200px;
   height: 200px;
-  margin-top: 0;
+  float: left;
+  text-align: right;
 }
 
 .circle {
   width: 200px;
   height: 200px;
-  margin-top: 0;
-
-}
+  float: right;
+  text-align: left;
+  }
 
 .middle-container {
-background-color:  #fffafa;
+  margin-bottom: 30px;
 }
 
-.plane {
-  width: 50px;
-  height: 50px;
-  margin-top: 0;
-  position: relative; right: 430px; bottom: 10px;
-}
 
 .milly {
   position: fixed;
@@ -73,44 +87,64 @@ background-color:  #fffafa;
   top: 560px;
   right: 5px;
 }
-  /**-webkit-transform: rotate(0deg) translateY(-50%);
+
+/**-webkit-transform: rotate(0deg) translateY(-50%);
   transform: rotate(0deg) translateY(-50%);**/
-
-
 .If {
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .Do {
-  font-family: sans-serif; font-style:normal; font-size: 12px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 14px;
 }
 
 .bottom-container {
-  background-color: #fffafa;
 }
 
 a.footer-link {
-font-size: 20px;
+  font-size: 20px;
+  margin: 3px;
 }
 
 .Mii {
-  font-size: 10px; margin: auto; margin-top: 35px; background-color: #e8e8e8;
+  font-size: 13px;
+  margin: auto;
+  margin-top: 65px;
+  background-color: #e8e8e8;
+  padding: 20px;
 }
 
-.Co {
-  position: relative; top: 31px; display: block; padding-bottom: 10px; margin-top: 0;
+
+
+.Button {
+  background-color: #f3ecd3;
+  border-radius: 35%;
+  color: white;
+  padding: 10px 42px 15px;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration:none;
+  display: inline-block;
+  font-size: 22px;
 }
 
-.mountain { position: relative;
+.mountain {
+  position: relative;
 }
 
 .bottom-cloud {
-  position: absolute; bottom: 330px; left: 270px;
+  position: absolute;
+  bottom: 330px;
+  left: 270px;
 }
 
 .top-cloud {
-  position: relative; left: 220px;
+  position: relative;
+  left: 220px;
 }
+
 /******************************FACEBOOK******************/
 .Divane {
   background-color: #f4f9f4;
@@ -120,24 +154,25 @@ font-size: 20px;
   display: inline-block;
   top: 30px;
   bottom: 30px;
-
 }
+
 .cat {
-position: relative;
-margin-top: 5px;
+  position: relative;
+  margin-top: 5px;
 }
 
 .How {
-  font-family:'Emilys Candy', cursive;
+  font-family: 'Emilys Candy', cursive;
   font-size: 30px;
   margin-top: 25px;
 }
 
 .This {
-  font-family:'Emilys Candy', cursive;
+  font-family: 'Emilys Candy', cursive;
   font-size: 40px;
   margin-top: 10px;
 }
+
 /*******************************TWITTER**************************/
 .Catjoke {
   position: absolute;
@@ -155,7 +190,7 @@ margin-top: 5px;
   background-color: #ece8d9;
 }
 
-  h1.Hope {
+h1.Hope {
   font-size: 22px;
   position: absolute;
   width: 520px;
@@ -168,19 +203,19 @@ margin-top: 5px;
 }
 
 .Ehe {
-font-size: 22px;
-position: absolute;
-width: 520px;
-height: 80px;
-padding-left: 200px;
-top: 310px;
-font-family: 'Quattrocento', serif;
-color: #393e46;
+  font-size: 22px;
+  position: absolute;
+  width: 520px;
+  height: 80px;
+  padding-left: 200px;
+  top: 310px;
+  font-family: 'Quattrocento', serif;
+  color: #393e46;
 }
 
 /************************WEbsite*************/
 .tri {
-background-color:
+  background-color:
 }
 
 #hi {
@@ -202,23 +237,23 @@ background-color:
   margin: auto 275px 0 275px
 }
 
-.brebre{
+.brebre {
   position: relative;
   padding-top: 15px;
 }
 
 .nindja {
-border-radius: 260%;
-border-top-right-radius: 20%;
-border-bottom-right-radius: 20%;
-object-fit: cover;
+  border-radius: 260%;
+  border-top-right-radius: 20%;
+  border-bottom-right-radius: 20%;
+  object-fit: cover;
 }
 
 .sorry {
   font-size: 26px;
 }
-/************PSEUDO SELECTORS***************/
 
+/************PSEUDO SELECTORS***************/
 a:link {
   color: #a20a0a;
 }
