@@ -11,11 +11,12 @@ h1 {
   margin-top: 0;
   position: relative;
   font-family: 'Dancing Script', cursive;
-  color: #0f3057;
+  color: #363062;
 }
 
 h2 {
   color: #4e89ae;
+  padding-top: 20px;
 }
 
 h3 {
@@ -25,7 +26,7 @@ h3 {
 }
 
 p {
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Heebo', sans-serif; color: #111d5e;
 }
 
 a {
@@ -45,10 +46,6 @@ a {
 
 .skills {
 height: 470px;
-}
-
-.mymy {
-  padding-top: 30px;
 }
 
 .mila {
@@ -131,6 +128,7 @@ padding-left: 14rem;
   transform: rotate(0deg) translateY(-50%);**/
 .If {
   font-size: 15px;
+  padding-top: 10px;
 }
 
 .Do {
@@ -155,14 +153,16 @@ a.footer-link {
   color: black;
 }
 
-
+.get {
+  color: #931a25; font-weight: lighter;
+}
 
 .Button {
   background-color: #f3ecd3;
   border-radius: 35%;
   color: white;
   padding: 10px 42px 15px;
-  margin-top: 20px;
+  margin-top: 5px;
   margin-bottom: 20px;
   text-align: center;
   text-decoration:none;
