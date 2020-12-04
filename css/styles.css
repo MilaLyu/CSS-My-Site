@@ -89,6 +89,7 @@ height: 470px;
   position: relative;
   right: 430px;
   bottom: 10px;
+  mix-blend-mode: multiply;
 }
 
 .hrom {
@@ -125,10 +126,6 @@ padding-left: 12rem;
 
   }
 
-.middle-container {
-
-}
-
 
 .milly {
   position: fixed;
@@ -154,6 +151,11 @@ padding-left: 12rem;
 }
 
 .bottom-container {
+  #f4f4f4;
+}
+
+.middle-container {
+  background-color: #f4f4f4;
 }
 
 a.footer-link {
