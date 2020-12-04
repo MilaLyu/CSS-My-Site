@@ -34,6 +34,11 @@ a {
   top: 25px;
   font-size: 17px;
   margin: 10px 7px;
+  text-decoration: none;
+  background-color: #faf4f4;
+  padding: 0px 7px;
+  border-radius: 40%;
+  object-fit: cover;
 }
 
 hr {
@@ -153,10 +158,11 @@ padding-left: 14rem;
 
 a.footer-link {
   font-size: 20px;
+
 }
 
 .Mii {
-  font-size: 13px;
+  font-size: 0.75rem;
   margin: auto;
   margin-top: 45px;
   background-color: #e8e8e8;
