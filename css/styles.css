@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: auto;
   text-align: center;
   font-family: 'Dancing Script', cursive;
   position: relative;
@@ -28,11 +28,17 @@ a {
   font-size: 17px;
 }
 
+
 /*************CLASS SELECTORS*********/
 
 .skill-row {
   width: 50%;
-  margin: auto;
+  margin: auto auto 120px auto;
+  line-height: px;
+}
+
+.skills {
+height: 625px;
 }
 
 .top-container {
@@ -59,24 +65,43 @@ a {
   bottom: 10px;
 }
 
+.hrom {
+padding-right: 8rem;
+}
+
+.comp {
+padding-top: 40px;
+padding-left: 14rem;
+}
+
+.compi {
+  padding-left: 6rem;
+}
 
 .racoon {
-  left: 25px;
-  width: 200px;
-  height: 200px;
+  margin-top: 30px;
+  margin-right: 20px;
+  width: 150px;
+  height: 150px;
   float: left;
   text-align: right;
 }
 
+.ouch {
+  text-align: left;
+}
+
 .circle {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   float: right;
   text-align: left;
+
   }
 
 .middle-container {
-  margin-bottom: 30px;
+  margin-top: 10px;
+
 }
 
 
@@ -101,6 +126,7 @@ a {
 }
 
 .bottom-container {
+
 }
 
 a.footer-link {
