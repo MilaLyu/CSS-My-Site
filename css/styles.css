@@ -35,6 +35,14 @@ a {
   font-size: 17px;
 }
 
+hr {
+  width: 580px;
+  border-width: 1.3px;
+  border-style: dotted none none;
+  border-color: #35495e;
+  border-bottom-color: #ccafaf;
+
+}
 
 /*************CLASS SELECTORS*********/
 
